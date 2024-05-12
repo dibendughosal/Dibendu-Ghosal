@@ -16,6 +16,5 @@ check.addEventListener("click", () => {
 
       }
 } );
-alert("Hey! Welcome to my Personal's Portfolio");
 
 

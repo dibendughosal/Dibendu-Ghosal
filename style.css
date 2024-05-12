@@ -191,11 +191,11 @@ section {
 /*ANIMATION*/
 
 .animated_text h1 {
-    -webkit-text-stroke: 1px #f3efef;
+    -webkit-text-stroke: 1px #f3e2e2;
     font-family: Arial, Helvetica, sans-serif;
     color: transparent;
     background-repeat: no-repeat;
-    background-image: linear-gradient(#110105, #b6020b);
+    background-image: linear-gradient(#1cdafc, #1cdafc);
     -webkit-background-clip: text;
     background-clip: none;
     background-position: -500px 0;
@@ -328,15 +328,15 @@ section {
 .hobby-list {
 	padding: 40px;
 	margin-top: 35px;
-	background: #c5baba;
+	background: #e6d6d6;
 	border-radius: 15px;
-	width: 94%;
+	width: 50%;
 	float: left;
 }
 
 .hobby-list i {
 	font-size: 50px;
-	color: #ffbf35;
+	color: #260288;
 	width: 70px;
 	float: left;
 }
