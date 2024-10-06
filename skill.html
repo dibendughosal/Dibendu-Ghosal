@@ -13,7 +13,11 @@
 	margin-top: 30px;
 	font-size: 17px;
 }
-
+.progress-bar{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
 .skill span {
 	float: right;
 }
@@ -31,7 +35,15 @@
 	height: 5px;
 	float: left;
 }
-
+.heading-text{
+    width: 100%;
+    float: left;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffbf35;
+    text-decoration: underline;
+}
 div[role="progressbar"] {
 	color: #ffbf35;
 	margin-left: 100px;
@@ -53,6 +65,7 @@ div[role="progressbar"] {
 body{
   background-image: url(https://assets-global.website-files.com/6344c9cef89d6f2270a38908/653c5395a20cd20e8f4fb7b5_Freelance%20Software%20Developer%20Everything%20You%20Need%20To%20Know.webp);
   color: #e7e7e7;
+  background-size: 100% 100%;
 }
   </style>
     <!------SKILL SECTION------>
@@ -76,7 +89,7 @@ body{
         </div>
         <div class="skill">
           <b>JavaScript</b>
-          <span>73%</span>
+          <span>80%</span>
           <div>
             <span style="width:85%"></span>
           </div>
@@ -97,25 +110,25 @@ body{
           </div>
           <div class="skill">
             <b>C</b>
-            <span>80%</span>
+            <span>70%</span>
             <div>
               <span style="width:79%"></span>
             </div>
           </div>
       </div>
       <br>
-      <div class="width-50">
+      <div class="progress-bar">
         <div class="width-50">
-          <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:70">React-70</div>
+          <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:70">React.js</div>
         </div>
         <div class="width-50">
-          <div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="--value:65">Express-60</div>
+          <div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="--value:65">Node.js</div>
         </div>
         <div class="width-50">
-          <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:65">Node-65</div>
+          <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:65">Express.js</div>
         </div>
         <div class="width-50">
-          <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:65">Java - 60</div>
+          <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:65">Java</div>
         </div>
       </div>
     </div>

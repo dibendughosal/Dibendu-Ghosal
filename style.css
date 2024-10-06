@@ -325,13 +325,14 @@ section {
     
 }
 /*SERVICE SECTION*/
+
 .hobby-list {
 	padding: 40px;
-	margin-top: 35px;
+	margin-top: 15px;
 	background: #e6d6d6;
 	border-radius: 15px;
-	width: 50%;
-	float: left;
+	width: 90%;
+
 }
 
 .hobby-list i {
